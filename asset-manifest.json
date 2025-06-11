@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nats-portfolio/static/css/main.79f7c7cc.css",
+    "main.js": "/nats-portfolio/static/js/main.3626c109.js",
+    "static/js/453.419a5d54.chunk.js": "/nats-portfolio/static/js/453.419a5d54.chunk.js",
+    "static/media/purple-heart.png": "/nats-portfolio/static/media/purple-heart.ebf948d7ac9a01a13122.png",
+    "index.html": "/nats-portfolio/index.html",
+    "main.79f7c7cc.css.map": "/nats-portfolio/static/css/main.79f7c7cc.css.map",
+    "main.3626c109.js.map": "/nats-portfolio/static/js/main.3626c109.js.map",
+    "453.419a5d54.chunk.js.map": "/nats-portfolio/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79f7c7cc.css",
+    "static/js/main.3626c109.js"
+  ]
+}
