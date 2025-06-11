@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import pixelArt from "./assets/purple-heart.png";
-import Lockscreen from "./Lockscreen"; // 👈 updated name
+import Lockscreen from "./components/Lockscreen/Lockscreen"; // 👈 updated name
 
 function App() {
   const [isUnlocked, setIsUnlocked] = useState(false);
