@@ -2,42 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#8b6fe0" />
+
+    <!-- Primary SEO -->
+    <title>Natasha Naorem — Software Engineer | Portfolio</title>
     <meta
       name="description"
-      content="Natasha Naorem — software engineering graduate student building cloud-native systems with a research focus on AI for cybersecurity."
+      content="Natasha Naorem is a software engineering graduate student at Ontario Tech University building cloud-native systems on AWS, Azure, and GCP, with a research focus on AI for cybersecurity. See projects, experience, and certifications."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="author" content="Natasha Naorem" />
+    <meta
+      name="keywords"
+      content="Natasha Naorem, software engineer, software engineering, Ontario Tech University, AI cybersecurity, DevOps, full stack developer, React, AWS, Azure, GCP, portfolio"
+    />
+    <link rel="canonical" href="https://natt-n.github.io/nats-portfolio/" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Natasha Naorem · Portfolio</title>
+    <!-- Open Graph (LinkedIn, Facebook, Discord previews) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Natasha Naorem — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software engineering graduate student building cloud-native systems with a research focus on AI for cybersecurity."
+    />
+    <meta property="og:url" content="https://natt-n.github.io/nats-portfolio/" />
+    <meta property="og:site_name" content="Natasha Naorem · Portfolio" />
+    <meta property="og:image" content="https://natt-n.github.io/nats-portfolio/logo512.png" />
+    <meta property="profile:first_name" content="Natasha" />
+    <meta property="profile:last_name" content="Naorem" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Natasha Naorem — Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Software engineering graduate student building cloud-native systems with a research focus on AI for cybersecurity."
+    />
+    <meta name="twitter:image" content="https://natt-n.github.io/nats-portfolio/logo512.png" />
+
+    <!-- JSON-LD structured data — strongest signal for ranking on a personal name -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Natasha Naorem",
+      "givenName": "Natasha",
+      "familyName": "Naorem",
+      "url": "https://natt-n.github.io/nats-portfolio/",
+      "image": "https://natt-n.github.io/nats-portfolio/logo512.png",
+      "jobTitle": "Software Engineer",
+      "description": "Software engineering graduate student building cloud-native systems with a research focus on AI for cybersecurity.",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Ontario Tech University",
+        "url": "https://ontariotechu.ca/"
+      },
+      "knowsAbout": [
+        "Software Engineering",
+        "Cloud Computing",
+        "DevOps",
+        "CI/CD",
+        "AI for Cybersecurity",
+        "React",
+        "TypeScript",
+        "AWS",
+        "Microsoft Azure",
+        "Google Cloud Platform"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/natasha-naorem",
+        "https://github.com/natt-n",
+        "https://www.credly.com/users/natasha-naorem"
+      ]
+    }
+    </script>
+
+    <!-- Icons & manifest -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      Natasha Naorem — software engineering graduate student building
+      cloud-native systems with a research focus on AI for cybersecurity.
+      Please enable JavaScript to view the full interactive portfolio, or
+      visit my <a href="https://www.linkedin.com/in/natasha-naorem">LinkedIn</a>
+      and <a href="https://github.com/natt-n">GitHub</a>.
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Natasha Naorem",
+  "name": "Natasha Naorem · Portfolio",
+  "description": "Software engineering graduate student building cloud-native systems with a research focus on AI for cybersecurity.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#8b6fe0",
+  "background_color": "#fbfaff"
 }
